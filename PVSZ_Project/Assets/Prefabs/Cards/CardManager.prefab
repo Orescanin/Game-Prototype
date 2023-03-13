@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3800063713598447576
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3800063713598447582}
+  - component: {fileID: 3800063713598447583}
+  m_Layer: 0
+  m_Name: CardManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3800063713598447582
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3800063713598447576}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3800063713598447583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3800063713598447576}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 755839f8d38e49445b536b2c30bf6b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _cardsInfoArray:
+  - Type: 0
+    Cost: 30
+    UnitPrefab: {fileID: 5072785689260309729, guid: 5b0a5b9ba621e55458d0aa2aa0c8d998, type: 3}
+  - Type: 1
+    Cost: 50
+    UnitPrefab: {fileID: -109858222217300961, guid: 2c3d77ae2c2a0804aa9907dc4eac7ef9, type: 3}
+  - Type: 2
+    Cost: 150
+    UnitPrefab: {fileID: 1997862102087792006, guid: fe3fe76839264ad4e84686df328736e3, type: 3}
+  - Type: 3
+    Cost: 150
+    UnitPrefab: {fileID: 350832977804805719, guid: 6031e5bd771244740ac9d226411f4405, type: 3}
+  - Type: 4
+    Cost: 150
+    UnitPrefab: {fileID: 6901252958978690289, guid: 2b79f5db5a5953c429f2d6c4a680d77b, type: 3}
+  - Type: 1000
+    Cost: 100
+    UnitPrefab: {fileID: 0}
+  - Type: 1002
+    Cost: 100
+    UnitPrefab: {fileID: 0}
+  - Type: 1001
+    Cost: 100
+    UnitPrefab: {fileID: 0}
+  - Type: 5
+    Cost: 100
+    UnitPrefab: {fileID: 5757316788215459436, guid: e18b873a7aeec8248bfea0b68f0079f8, type: 3}
+  _cards:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  DisabledMaterial: {fileID: 2100000, guid: a35fd6d28776ccc4e8ea450c389608b6, type: 2}
